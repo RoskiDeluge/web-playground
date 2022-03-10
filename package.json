@@ -10,5 +10,7 @@
   "devDependencies": {
     "vite": "^2.8.0",
     "vite-plugin-handlebars": "^1.6.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

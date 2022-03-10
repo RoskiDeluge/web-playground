@@ -6,3 +6,80 @@
   color: #2c3e50;
   margin-top: 60px;
 } */
+/* Nav styles */
+
+Nav {
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+  width: 80%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+Nav a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: darkblue;
+  text-decoration: none;
+}
+
+Nav a:hover {
+  color: brown;
+}
+
+/* Body styles */
+
+body p:hover {
+  background: orange;
+}
+
+body {
+  background: white;
+}
+
+h1,
+h2 {
+  font-family: "Erica One", cursive;
+}
+
+.item-container li {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.item-container li:hover {
+  background: orange;
+}
+
+#item-4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-content {
+  margin: auto;
+  margin-top: 1rem;
+  width: 80%;
+  background-color: turquoise;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Footer styles */
+
+.footer-content {
+  margin: auto;
+  width: 80%;
+  background: magenta;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
