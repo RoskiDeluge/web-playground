@@ -21,6 +21,7 @@ Nav a {
   margin-right: 2rem;
   color: darkblue;
   text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
 }
 
 Nav a:hover {
@@ -28,6 +29,10 @@ Nav a:hover {
 }
 
 /* Body styles */
+
+p {
+  font-family: 'Source Code Pro', monospace;
+}
 
 body p:hover {
   background: orange;
@@ -45,7 +50,7 @@ h2 {
 .item-container li {
   display: flex;
   flex-direction: column;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .item-container li:hover {
